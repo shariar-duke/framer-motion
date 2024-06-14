@@ -1,7 +1,8 @@
+import Simple from "./components/Simple";
 export default function App() {
   return (
-    <div className=" border-black h-[100vh] ">
-      <p>Basic of Animation</p>
+    <div className=" border-black h-[100vh] ">  
+      <Simple/>
     </div>
   );
 }
