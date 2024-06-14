@@ -1,8 +1,10 @@
 import Simple from "./components/Simple";
+import KeyFrame from "./components/KeyFrame";
 export default function App() {
   return (
-    <div className=" border-black h-[100vh] ">  
-      <Simple/>
+    <div >  
+      {/* <Simple/> */}
+      <KeyFrame/>
     </div>
   );
 }
